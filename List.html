@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title></title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style/list.css">
+    <link rel="stylesheet" type="text/css" href="style/swiper-4.1.6.min.css">
+    <script src="js/adaptive.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".category_left li").click(function() {
+                $(".category_left li a").removeClass("current");
+                $(this).children("a").addClass("current");
+
+                $(".category_tu").hide(0);
+                $(".category_tu:eq(" + $(this).index() + ")").show(0);
+            });
+
+        });
+    </script>
+</head>
+<body>
+<div id="m_header">
+    <div class="m_search">
+        <form action="">
+            <input type="text" placeholder="">
+            <input type="button" value="&#xe6fe;" class="iconfont">
+        </form>
+    </div>
+
+
+    <section class="category_main">
+    <!--category_left-->
+      <div class="category_left">
+        <ul class="tabs">
+            <li><a href="javascript:" class="vz">女装</a></li>
+            <li><a href="javascript:">男装</a></li>
+            <li><a href="javascript:">美妆护肤</a></li>
+            <li><a href="javascript:">保暖内搭</a></li>
+            <li><a href="javascript:">配饰</a></li>
+            <li><a href="javascript:">女鞋</a></li>
+            <li><a href="javascript:">男鞋</a></li>
+            <li><a href="javascript:">食品</a></li>
+            <li><a href="javascript:">箱包</a></li>
+            <li><a href="javascript:">个人护理</a></li>
+        </ul>
+      </div>
+    <section class="category_tu" style="display:none;">
+        <div class="Ladies">女装</div>
+      <div class="category_sd">
+          <li>   <a href="">  <img src="images/25.png" >
+          <p>衬衫</p></a></li>
+          <li> <a href=""> <img src="images/26.png" >
+          <p>卫衣</p></a></li>
+          <li> <a href=""><img src="images/27.png" >
+          <p>毛衣</p></a></li>
+          <li> <a href=""> <img src="images/28.png" >
+          <p>外套</p></a></li>
+          <li>  <a href=""><img src="images/29.png" >
+          <p class="cj">春季裙装</p></a></li>
+          <li> <a href=""> <img src="images/30.png" >
+          <p>裤装</p></a></li>
+          <li> <a href=""> <img src="images/31.png" >
+          <p>马甲</p></a></li>
+          <li> <a href=""> <img src="images/32.png" >
+          <p>T恤</p></a></li>
+          <li>  <a href=""> <img src="images/33.png" >
+          <p>内衣</p></a></li>
+          <li> <a href=""> <img src="images/34.png" >
+          <p>棉服</p></a></li>
+          <li> <a href="">  <img src="images/35.png" >
+          <p class="mn">毛呢大衣</p></a></li>
+      </div>
+    </section>
+        <sect class="category_tu" style="display:block;">
+            <div class="Ladies">男装</div>
+            <div class="category_sd">
+                <li>   <a href="">  <img src="images/25.png" >
+                    <p>衬衫</p></a></li>
+                <li> <a href=""> <img src="images/26.png" >
+                    <p>卫衣</p></a></li>
+                <li> <a href=""><img src="images/27.png" >
+                    <p>毛衣</p></a></li>
+                <li> <a href=""> <img src="images/28.png" >
+                    <p>外套</p></a></li>
+                <li>  <a href=""><img src="images/29.png" >
+                    <p class="cj">春季裙装</p></a></li>
+                <li> <a href=""> <img src="images/30.png" >
+                    <p>裤装</p></a></li>
+                <li> <a href=""> <img src="images/31.png" >
+                    <p>马甲</p></a></li>
+                <li> <a href=""> <img src="images/32.png" >
+                    <p>T恤</p></a></li>
+                <li>  <a href=""> <img src="images/33.png" >
+                    <p>内衣</p></a></li>
+                <li> <a href=""> <img src="images/34.png" >
+                    <p>棉服</p></a></li>
+                <li> <a href="">  <img src="images/35.png" >
+                    <p class="mn">毛呢大衣</p></a></li>
+            </div>
+        </sect>
+        <section class="category_tu" style="display:none;">
+            <div class="Ladies">美装护肤</div>
+            <div class="category_sd">
+                <li>   <a href="">  <img src="images/25.png" >
+                    <p>衬衫</p></a></li>
+                <li> <a href=""> <img src="images/26.png" >
+                    <p>卫衣</p></a></li>
+                <li> <a href=""><img src="images/27.png" >
+                    <p>毛衣</p></a></li>
+                <li> <a href=""> <img src="images/28.png" >
+                    <p>外套</p></a></li>
+                <li>  <a href=""><img src="images/29.png" >
+                    <p class="cj">春季裙装</p></a></li>
+                <li> <a href=""> <img src="images/30.png" >
+                    <p>裤装</p></a></li>
+                <li> <a href=""> <img src="images/31.png" >
+                    <p>马甲</p></a></li>
+                <li> <a href=""> <img src="images/32.png" >
+                    <p>T恤</p></a></li>
+                <li>  <a href=""> <img src="images/33.png" >
+                    <p>内衣</p></a></li>
+                <li> <a href=""> <img src="images/34.png" >
+                    <p>棉服</p></a></li>
+                <li> <a href="">  <img src="images/35.png" >
+                    <p class="mn">毛呢大衣</p></a></li>
+            </div>
+        </section>
+    </section>
+
+</div>
+<footer>
+    <div class="image_i">
+        <img src="images/23.png ">
+
+        <img class="tp" src="images/24.png ">
+
+        <img src="images/37.png ">
+
+        <img src="images/22.png ">
+        <p>首页</p>
+        <p class="sy">分类</p>
+        <p>收藏</p>
+        <p>我的</p>
+    </div>
+</footer>
+</body>
+</html>
